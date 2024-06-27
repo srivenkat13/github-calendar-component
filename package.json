@@ -1,6 +1,6 @@
 {
   "name": "github-calendar-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": " \"A React component for customizeable Github contribution graph\"",
   "main": "./build/index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   ],
   "author": "Sri Venkat",
   "homepage": "https://github.com/srivenkat13/github-calendar-component",
-  "repository": "github:srivenkat13/github-calender-component",
+  "repository": "https://github.com/srivenkat13/github-calendar-component",
   "license": "ISC",
   "peerDependencies": {
     "react": "^18.3.1",
