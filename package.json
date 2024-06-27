@@ -1,0 +1,43 @@
+{
+  "name": "github-calendar-component",
+  "version": "1.0.0",
+  "description": " \"A React component for customizeable Github contribution graph\"",
+  "main": "./build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "github",
+    "calendar",
+    "react-component"
+  ],
+  "author": "Sri Venkat",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "babel-loader": "^9.1.3",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4",
+    "@chromatic-com/storybook": "^1.5.0",
+    "@storybook/addon-essentials": "^8.1.11",
+    "@storybook/addon-interactions": "^8.1.11",
+    "@storybook/addon-links": "^8.1.11",
+    "@storybook/addon-onboarding": "^8.1.11",
+    "@storybook/addon-webpack5-compiler-swc": "^1.0.4",
+    "@storybook/blocks": "^8.1.11",
+    "@storybook/react": "^8.1.11",
+    "@storybook/react-webpack5": "^8.1.11",
+    "@storybook/test": "^8.1.11",
+    "prop-types": "^15.8.1",
+    "storybook": "^8.1.11"
+  }
+}

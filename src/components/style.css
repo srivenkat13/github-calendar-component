@@ -1,0 +1,35 @@
+.c-graph {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+  }
+  
+  .month {
+    font-size: small;
+    font-style: italic;
+    color: #333;
+  }
+  
+  .panel {
+    display: grid;
+    grid-template-columns: repeat(7,2fr);
+    grid-auto-flow: row;
+    gap: 2px;
+  }
+  
+  .day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(12px - 2px);
+    height: calc(12px - 2px);
+    border-radius: 2px;
+    background-color: #333;
+    font-size: 12px;
+    gap: 2px;
+  }
+  
+  .day.active {
+    background-color: #39d353;
+  }
+  
