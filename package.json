@@ -15,6 +15,8 @@
     "react-component"
   ],
   "author": "Sri Venkat",
+  "homepage": "https://github.com/srivenkat13/github-calendar-component",
+  "repository": "github:srivenkat13/github-calender-component",
   "license": "ISC",
   "peerDependencies": {
     "react": "^18.3.1",
