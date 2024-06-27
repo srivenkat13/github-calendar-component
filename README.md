@@ -14,12 +14,12 @@ npm install github-calendar-component
 First, import the component into your project:
 
 ```javascript
-import Gitgraph from 'github-calendar-component';
+import {Gitgraph} from 'github-calendar-component';
 ```
 Using the Component
 ``` jsx
 import React from 'react';
-import Gitgraph from 'github-calendar-component';
+import {Gitgraph} from 'github-calendar-component';
 // Sample test data
 const testData = [
   { date: '2022-01-01T00:00:00.000Z', checked: true },
