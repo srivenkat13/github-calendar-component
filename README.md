@@ -1,4 +1,5 @@
-# Github Heatmap component
+![npm (scoped)](https://img.shields.io/npm/v/github-calendar-component?label=NPM) ![NPM](https://img.shields.io/npm/l/github-calendar-component?label=License) 
+# Github calendar component
 ![sample-image](./assets/sample.png)
 A reusable React component for displaying a Github-like calendar graph with customizable colors.
 ## Installation
@@ -6,19 +7,19 @@ A reusable React component for displaying a Github-like calendar graph with cust
 To install the package, use npm:
 
 ```bash
-npm install github-heatmap
+npm install github-calendar-component
 ```
 ## Usage
 
 First, import the component into your project:
 
 ```javascript
-import Gitgraph from 'github-heatmap';
+import Gitgraph from 'github-calendar-component';
 ```
 Using the Component
 ``` jsx
 import React from 'react';
-import Gitgraph from 'github-heatmap';
+import Gitgraph from 'github-calendar-component';
 // Sample test data
 const testData = [
   { date: '2022-01-01T00:00:00.000Z', checked: true },
